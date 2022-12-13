@@ -1,9 +1,47 @@
+/* rodar o cypress
+
+1- instalar o Node js e o npm
+
+2- criar a pasta para o projeto
+
+3- usar o comando (npm init) para iniciar o projeto no formato node
+
+4- preencer confrome o necessário
+
+5*- preencher da forma o (test comand: npx cypress open) para quando executar o tester abra a interface grafica
+do cypress* 
+
+5.5*- observação se precisar na licença colocar MIT é uma licensa open source
+
+6- criar os arquivos de teste no formato nomeTeste.cy.js na pasta 2e2
+
+7- usar o comando (npx cypress open) para abrir a interface gráfica do cypress ou o comando npm run test para rodar
+os scripts de teste do arquivo package.json ou npx cypress run para rodar todos os testes em background
+
+*/
+
+
+/* links uteis
+* https://www.cypress.io/    site com a documentação e instalação do cypress
+
+* https://nodejs.org/en/     site com a documentação e instalação do Nodejs e npm
+
+* https://buger-eats-qa.vercel.app/    site base para esse treinamento
+
+*/
+
 /* comandos de terminal
+
+* npx cypress open abre a intereface grafica do
+
+* node --version
+
+* npm --version 
 
 * npx cypress run //roda os testes em backgroud (sem abrir um navegador visivel), onde coleta os dados em
 videos (parando onde ocorreu bug) e screenshots dos bugs sendousado para realizar uma bateria de testes juntos
 
-* npm run test 
+* npm run test // executa os comandos em test comand: do arquivo de criação do projeto, package.json
 
 * npm install gerador-validador-cpf --save-dev
 
@@ -13,13 +51,18 @@ videos (parando onde ocorreu bug) e screenshots dos bugs sendousado para realiza
 
 * npm install cypress-file-upload --save-dev
 
-* npm i cypress --save-dev
+* npm i cypress --save-dev // instala o cypress na PASTA DO PROJETO, e ira colocar em devDepencies do arquivo
+package.json junto com outros frameworks usandos pois ele é um framework de desenvolvimento
+* npm install cypress --save-dev // instala o cypress na PASTA DO PROJETO, e ira colocar em devDepencies do arquivo
+package.json junto com outros frameworks usandos pois ele é um framework de desenvolvimento
 
-* npm init
+* npm init  inicializa um projeto com a estrutura do node
 
 * npx cypress run -b firefox para rodar em um navegador expecifico, obs: deve ter o navegador instalado no pc
 
 */
+
+/* exemplos de ganchos
 
 before(function(){
     cy.log('Tudo aqui é executado uma ÚNICA vez ANTES DE TODOS os testes')
@@ -37,6 +80,7 @@ afterEach(function(){
     cy.log('Tudo aqui é executado uma vez DEPOIS de Cada CASO de teste')
 })
 
+*/
 
 // para adicionar o fixture precisei trocar o ()=> por function()
 //var b= 'Van/Carro'
@@ -142,6 +186,8 @@ afterEach(function(){
     
         })*/
 
+        /* antes de começar a usar ganchos
+
         it('usuário deve se tornar um entregador',()=>{
 
         
@@ -169,6 +215,9 @@ afterEach(function(){
             signup.alertMessageShouldBeForCPFIncorrect('Oops! CPF inválido')        
             
         })
+
+*/
+/*
 //antes de mudar para o factory
 
 //import SignupPage from '../pages/SignupPage' //importa os códigos, mas para usar precisar criar uma 
@@ -225,3 +274,4 @@ describe('Signup', () => {
     })
 
 })
+*/
