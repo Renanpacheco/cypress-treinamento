@@ -1,22 +1,29 @@
 /* rodar o cypress
 
-1- instalar o Node js e o npm
+1- instalar o Node js e o npm;
 
-2- criar a pasta para o projeto
+2- criar a pasta para o projeto;
 
-3- usar o comando (npm init) para iniciar o projeto no formato node
+3- usar o comando (npm init) para iniciar o projeto no formato node;
 
-4- preencer confrome o necessário
+4- preencer confrome o necessário;
 
 5*- preencher da forma o (test comand: npx cypress open) para quando executar o tester abra a interface grafica
-do cypress* 
+do cypress;
 
-5.5*- observação se precisar na licença colocar MIT é uma licensa open source
+5.5*- observação se precisar na licença colocar MIT é uma licensa open source;
 
-6- criar os arquivos de teste no formato nomeTeste.cy.js na pasta 2e2
+6- instalar o cypress na pasta do projeto com o comando (npm install cypress);
 
 7- usar o comando (npx cypress open) para abrir a interface gráfica do cypress ou o comando npm run test para rodar
-os scripts de teste do arquivo package.json ou npx cypress run para rodar todos os testes em background
+os scripts de teste do arquivo package.json, abrindo a interface gráfica do cypress para fazer as configurações iniciais,
+de base escolhendo o formato E2E testing e deixando todas as opções marcadas e escolher o navegador, podendo fechar a interface após isso;
+
+8- criar os arquivos de teste no formato nomeTeste.cy.js na pasta 2e2 e depois de editar os arquivos, salvar os mesmos, se a interface estiver aberta o cypress
+ja executa automaticamente os testes;
+
+9- caso não esteja executando o cypress podes usar o comando (npx cypress open) para abrir a interface gráfica do cypress ou o comando npm run test para rodar
+os scripts de teste do arquivo package.json ou npx cypress run para rodar todos os testes em background.
 
 */
 
