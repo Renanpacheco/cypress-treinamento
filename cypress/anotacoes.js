@@ -17,14 +17,18 @@ do cypress;
 
 7- usar o comando (npx cypress open) para abrir a interface gráfica do cypress ou o comando npm run test para rodar
 os scripts de teste do arquivo package.json, abrindo a interface gráfica do cypress para fazer as configurações iniciais,
-de base escolhendo o formato E2E testing e deixando todas as opções marcadas e escolher o navegador, podendo fechar a interface após isso;
+de base escolhendo o formato E2E testing e deixando todas as opções marcadas, escolher o navegador e criando um caso de teste padrão pela interface;
+podendo fechar a interface após isso;
 
-8- criar os arquivos de teste no formato nomeTeste.cy.js na pasta 2e2 e depois de editar os arquivos, salvar os mesmos, se a interface estiver aberta o cypress
+8- abrir a pasta do projeto em um editor de texto ou IDE; 
+
+9- criar os arquivos de teste no formato nomeTeste.cy.js na pasta 2e2 e depois de editar os arquivos, salvar os mesmos, se a interface estiver aberta o cypress
 ja executa automaticamente os testes;
 
-9- caso não esteja executando o cypress podes usar o comando (npx cypress open) para abrir a interface gráfica do cypress ou o comando npm run test para rodar
+10- caso não esteja executando o cypress podes usar o comando (npx cypress open) para abrir a interface gráfica do cypress ou o comando npm run test para rodar
 os scripts de teste do arquivo package.json ou npx cypress run para rodar todos os testes em background.
 
+OBS: passos 5 e 5.5 são opcionais
 */
 
 
