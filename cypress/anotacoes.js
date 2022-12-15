@@ -35,6 +35,8 @@ OBS: passos 5 e 5.5 são opcionais
 /* links uteis
 * https://www.cypress.io/    site com a documentação e instalação do cypress
 
+* https://docs.cypress.io/guides/overview/why-cypress      site com a documentação do cypress
+
 * https://nodejs.org/en/     site com a documentação e instalação do Nodejs e npm
 
 * https://buger-eats-qa.vercel.app/    site base para esse treinamento
